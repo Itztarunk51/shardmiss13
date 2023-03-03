@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PlaySudoku</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>PlaySudoku</h1>
+      <div class="wallet">
+        <button id="connect-wallet">Connect Metamask Wallet</button>
+        <p>Connected Wallet: <span id="connected-wallet"></span></p>
+        <p>Did the Player Win: <span id="player-win"></span></p>
+      </div>
+      <div class="board">
+        <h2>Current Board</h2>
+        <img src="tar.png" alt="Sudoku Board" />
+      </div>
+      <div class="buttons">
+        <button id="verify-win">Verify Win</button>
+      </div>
+    </div>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.5.3.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
